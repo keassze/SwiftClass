@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7275A4232041642800E4DA36 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7275A4222041642800E4DA36 /* NextViewController.swift */; };
 		72B9D228203EA8BA000951A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9D227203EA8BA000951A8 /* AppDelegate.swift */; };
 		72B9D22A203EA8BA000951A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9D229203EA8BA000951A8 /* ViewController.swift */; };
 		72B9D22D203EA8BA000951A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B9D22B203EA8BA000951A8 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		72B9D232203EA8BA000951A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B9D230203EA8BA000951A8 /* LaunchScreen.storyboard */; };
 		72B9D23D203EA8BA000951A8 /* SwiftClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9D23C203EA8BA000951A8 /* SwiftClassTests.swift */; };
 		72B9D248203EA8BA000951A8 /* SwiftClassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9D247203EA8BA000951A8 /* SwiftClassUITests.swift */; };
+		72B9D256203FB584000951A8 /* ConcentrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9D255203FB584000951A8 /* ConcentrationModel.swift */; };
+		72B9D258203FB820000951A8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9D257203FB820000951A8 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7275A4222041642800E4DA36 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		72B9D224203EA8BA000951A8 /* SwiftClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B9D227203EA8BA000951A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72B9D229203EA8BA000951A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		72B9D243203EA8BA000951A8 /* SwiftClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B9D247203EA8BA000951A8 /* SwiftClassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClassUITests.swift; sourceTree = "<group>"; };
 		72B9D249203EA8BA000951A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B9D255203FB584000951A8 /* ConcentrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationModel.swift; sourceTree = "<group>"; };
+		72B9D257203FB820000951A8 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				72B9D22E203EA8BA000951A8 /* Assets.xcassets */,
 				72B9D230203EA8BA000951A8 /* LaunchScreen.storyboard */,
 				72B9D233203EA8BA000951A8 /* Info.plist */,
+				72B9D255203FB584000951A8 /* ConcentrationModel.swift */,
+				72B9D257203FB820000951A8 /* Card.swift */,
+				7275A4222041642800E4DA36 /* NextViewController.swift */,
 			);
 			path = SwiftClass;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7275A4232041642800E4DA36 /* NextViewController.swift in Sources */,
 				72B9D22A203EA8BA000951A8 /* ViewController.swift in Sources */,
+				72B9D256203FB584000951A8 /* ConcentrationModel.swift in Sources */,
 				72B9D228203EA8BA000951A8 /* AppDelegate.swift in Sources */,
+				72B9D258203FB820000951A8 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JA7UMD99EC;
 				INFOPLIST_FILE = SwiftClass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hesongze.SwiftClass;
@@ -441,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JA7UMD99EC;
 				INFOPLIST_FILE = SwiftClass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hesongze.SwiftClass;
